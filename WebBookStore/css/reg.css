@@ -1,0 +1,70 @@
+﻿/*注册页面样式*/
+#regmain {
+    width: 1002px;
+    height: 480px;
+    margin: 0px auto;
+    margin-top: 150px;
+    /*border: solid 1px blue;*/
+}
+
+#regleft {
+    width: 610px;
+    height: 480px;
+    float: left;
+}
+
+#regright {
+    width: 390px;
+    height: 480px;
+    float: left;
+}
+
+.regitem {
+    height: 25px;
+    width: 100%;
+    line-height: 25px;
+}
+
+#btnreg {
+    background-color: #35B558;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    height: 44px;
+}
+
+    #btnreg:hover {
+        background-color: #67D179;
+    }
+
+
+#txtCheckCode {
+    width: 187px;
+    margin-right: 10px;
+}
+
+#imgcheckcode {
+    width: 100px;
+    height: 33px;
+}
+
+.inforerror {
+    color: red;
+}
+
+.begininfor {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #999999;
+}
+
+    .begininfor .l_f {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+.input-group-addon > img {
+    width: 15px;
+    height: 15px;
+}

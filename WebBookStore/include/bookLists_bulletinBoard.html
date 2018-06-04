@@ -1,0 +1,42 @@
+﻿<div id="row-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9" id="title-next">
+                <div class="block-header-book" id="title-h4">
+                    <h4><a href="javascript:;" id="classfication">所有图书</a></h4>
+                </div>
+                <div id="display-books">
+                    <ul class="block-items">
+                        <%=GetBooksHtml() %>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 " id="display-dynamic">
+                <div class="block-header-dynamic">
+                    <h4>系统公告</h4>
+                </div>
+                <div class="editable-area">
+                    <div class="block-events">
+                        <!-- 碎片 right 开始-->
+
+                        <dl>
+                            <dt><a title="InfoType=0">书籍信息</a></dt>
+                            <dd>
+                                <%=GetInformBookHTML() %>
+                            </dd>
+                        </dl>
+
+                        <dl>
+                            <dt><a title="InfoType=1">系统消息</a></dt>
+                            <dd>
+                                <%=GetInformSystemHTML() %>
+                            </dd>
+                        </dl>
+
+                        <!-- 碎片 right 结束-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

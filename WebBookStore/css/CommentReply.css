@@ -1,0 +1,171 @@
+﻿/*当前用户留言*/
+.commentReply {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.ownerItem {
+    width: 50px;
+    height: 70px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+    .ownerItem img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-bottom: 5px;
+    }
+.owner {
+    color: #35B558;
+}
+
+.commentInformation {
+    width: 566px;
+    float: left;
+    color: #808080;
+    margin-bottom: 25px;
+}
+
+.comInforTitle {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.comInfor {
+    width: 566px;
+    height: 23px;
+}
+
+.comUser, .comTime {
+    float: left;
+}
+
+.comUser {
+    width: 100px;
+}
+
+.comText {
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.comCount {
+    float: left;
+    width: 120px;
+    height: 65px;
+    margin-top: 30px;
+    text-align: center;
+    color: #999;
+}
+
+.comCount_1 {
+    font-size: 24px;
+    color: #2D85CA;
+}
+
+/*回复*/
+#commentReplyList {
+    border-top: solid 1px#F2F2F2;
+    clear: both;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.commentReplyItem {
+    height:150px;
+    width:556px;
+    margin-left: 30px;
+    padding: 25px 0px;
+    color: #808080;
+    border-bottom: solid 1px#F2F2F2;
+    overflow: hidden;
+}
+
+.comReplyBox {
+    width: 36px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.comReplyImg img {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+.comReplyFloor {
+    width:72px;
+    /*border:red solid 1px;*/
+    margin-left:-10px;
+}
+
+.comReplyImg {
+    margin-bottom: 5px;
+}
+
+.comReplyInforBox {
+    width: 550px;
+    float: left;
+}
+
+.comReplyUser {
+    margin-right: 10px;
+}
+
+.comReplyInfor {
+    margin-top: 10px;
+}
+
+.comReplyUser, .comReplyTime {
+    float: left;
+}
+
+.comReplyText {
+    clear: both;
+    padding-top: 10px;
+    line-height: 20px;
+}
+    .comReplyText > p {
+        margin-left: 0px;
+        text-align:left;
+    }
+
+    /*发表评论的插件*/
+    #comment {
+        border: solid 1px #F3F3F3;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        background-color: #F3F3F3;
+        clear: both;
+        margin-left: 200px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+#re1 {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.reitem {
+    margin-bottom: 10px;
+}
+
+#btnsubmit {
+    background-color: #35B558;
+    width: 120px;
+    color: #fff;
+    font-size: 16px;
+    height: 34px;
+}

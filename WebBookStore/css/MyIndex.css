@@ -1,0 +1,195 @@
+﻿
+.inforbox {
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+.form-item {
+    margin-bottom: 16px;
+}
+
+.item-label {
+    float: left;
+    line-height: 30px;
+    margin-right: 10px;
+    min-height: 1em;
+    text-align: right;
+    width: 70px;
+}
+
+.item-cont {
+    line-height: 32px;
+    margin-left: 80px;
+    min-height: 1em;
+    text-align: left;
+}
+
+.txt, .sm {
+    height: 32px;
+    padding: 6px 9px;
+}
+
+.txt {
+    border: 1px solid #e4e4e4;
+    font-size: 12px;
+    height: 38px;
+    line-height: 18px;
+    padding: 8px 9px;
+    width: 240px;
+}
+
+.select.w-xs {
+    width: 84px;
+}
+
+.select, select {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e4e4e4;
+    height: 32px;
+    outline: 0 none;
+    width: 130px;
+}
+
+.txt.w-sm {
+    width: 280px;
+}
+
+.btn-primary {
+    background: none repeat scroll 0 0 #35b558;
+    color: #fff;
+    transition: background-color 0.8s ease 0s;
+    border-width: 0px;
+    padding: 0 48px;
+    height: 38px;
+    font-size: 16px;
+}
+
+    .btn-primary:hover {
+        background: none repeat scroll 0 0 #66d178;
+    }
+
+
+.uploading-progress {
+    padding: 6px 15px;
+    border: 1px solid #c9caca;
+    width: 270px;
+    height: 35px;
+}
+
+.uploading-message {
+}
+
+.uploading-err {
+    padding: 6px 15px;
+    background: #cfc;
+    border: 1px solid #c9caca;
+    width: 270px;
+    height: 35px;
+}
+
+.uploading-bar {
+    height: 3px;
+    overflow: hidden;
+    border: 1px solid #c9caca;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+    .uploading-bar div {
+        position: absolute;
+        height: 3px;
+        overflow: hidden;
+        background: #3AD3E8;
+        top: 0;
+    }
+
+.uppicexplain, .uppicbtn {
+    float: left;
+}
+
+.uppicexplain {
+    height: 24px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+
+#Step2Container {
+    /*display:none;	*/
+}
+
+#Canvas {
+    position: relative;
+    width: 284px;
+    height: 266px;
+    border: 2px solid #888888;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.smallbig {
+    cursor: pointer;
+}
+
+#bar {
+    width: 211px;
+    height: 18px;
+    background-image: url("../image/track.gif");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.child {
+    width: 11px;
+    height: 16px;
+    background-image: url("../image/grip.gif");
+    background-repeat: no-repeat;
+    left: 0;
+    top: 2px;
+    position: absolute;
+    left: 100px;
+}
+
+.imagePhoto {
+    border-width: 0px;
+    position: relative;
+}
+
+#IconContainer {
+    position: relative;
+    left: 0px;
+    top: -120px;
+}
+
+    #IconContainer img {
+        FILTER: alpha(opacity=60);
+        opacity: 0.6;
+        background-color: #ccc;
+    }
+
+#ImageDragContainer {
+    border: 1px solid #ccc;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    position: relative;
+    top: 73px;
+    left: 82px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+#leavetab {
+    width: 748px;
+}
+
+    #leavetab td {
+        text-align: center;
+        padding: 10px;
+    }
+
+#myleft2, #myleft3 {
+    display: none;
+}

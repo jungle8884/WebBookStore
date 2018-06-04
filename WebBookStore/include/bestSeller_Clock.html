@@ -1,0 +1,105 @@
+﻿<div id="row-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9" id="title-next">
+                <div class="block-header-book" id="title-h4">
+                    <h4><a href="javascript:;">热门图书</a></h4>
+                </div>
+                <div class="header-more marquee-btns" id="head-more-page">
+                    <a href="javascript:;" class="btn btn-default" id="backward"><span class="fa fa-angle-left"> < </span></a>
+                    <a href="javascript:;" class="btn btn-default" id="forward"><span class="fa fa-angle-right"> > </span></a>
+                </div>
+                <div id="display-books">
+                    <ul class="block-items">
+                        <%=GetBooksHtml() %>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 " id="display-dynamic">
+                <div class="block-header-dynamic">
+                    <h4>畅销榜</h4>
+                </div>
+                <div class="editable-area">
+                    <div style="height:10px;"></div>
+                    <div id="bookShow">
+                        <div id="bsImgs" class="bestSeller">
+                            <div class="ig">
+                                <img src="../imgs/后来时间都与你有关.jpg" />
+                                <p class="bookShow-info">
+                                    总销量突破600万册！张皓宸全新中短篇故事集。
+                                    十万次握手，百万次相遇，只为你的一个喜欢。
+                                    果麦出品 60万铁粉唯美原创国漫《鬼刀》wlop插画集，火爆预售
+                                </p>
+                            </div>
+                            <div class="ig">
+                                <img src="../imgs/佛系 如何成为一个快乐的人.jpg" />
+                                <p class="bookShow-info">
+                                    荣登博客来畅销榜。风行日本、台湾的“佛系快乐思考法”，
+                                    与渡边淳一、松浦弥太郎不谋而合的幸福新主张！佛系不是丧，
+                                    是三分调侃、七分从容的自我消解；佛系快乐不是消极逃避，是一种管理欲望、平衡情绪的持久能力
+                                </p>
+                            </div>
+                            <div class="ig">
+                                <img src="../imgs/日俄战争 起源和开战.jpg" />
+                                <p class="bookShow-info">
+                                    20世纪初决定东北亚关键转折并具有世界史意义的日俄战争，
+                                    为什么发生在中国的东北？它与朝鲜、中国及当时其他的殖民帝国又有着怎样的直接关联？
+                                    东京大学教授、俄罗斯史和朝鲜史专家和田春树首次在全面调查日本、俄罗斯、韩国资料的基础之上，
+                                    为我们奉献了一部全新研究日俄战争的巨作，它是迄今在占有资料的全面、历史观的公正和写法的新颖方面
+                                    罕有匹敌的良心之作。
+                                </p>
+                            </div>
+                            <div class="ig">
+                                <img src="../imgs/见识.jpg" />
+                                <p class="bookShow-info">
+                                    《见识》是根据吴军老师在“得到”App专栏的订阅用户*为关心的内容，将之重新补充、
+                                    调整后的作品，作品增补、调整篇幅超过60%。吴军老师认为，与其他外部资源或者个人因素相比，
+                                    个人的成就首先取决于“见识”。因此在书中，他将自己的经历，以及身边那些时代先行者的经验，
+                                    以鲜明睿智的方式阐述出来，为你提供一个与众不同的、值得深度思考的看待世界、看待问题的视角。
+                                </p>
+                            </div>
+                            <div class="ig">
+                                <img src="../imgs/别在风暴中坐以待毙.jpg" />
+                                <p class="bookShow-info">
+                                    当当独家签名本，一本写给还在混沌中度日的年轻人的救赎之书，
+                                    《劈你的雷正在路上》作者 | 全新力作。你觉得生活风雨交加，
+                                    只是因为你还在风暴中坐以待毙。闯出去是天高辽阔，闯不出去是混吃等死。
+                                </p>
+                            </div>
+                        </div>
+                        <div id="tabs">
+                            <div class="tab bg">1</div>
+                            <div class="tab">2</div>
+                            <div class="tab">3</div>
+                            <div class="tab">4</div>
+                            <div class="tab">5</div>
+                        </div>
+                        <div class="btnShow btnL">&lt;</div>
+                        <div class="btnShow btnR">&gt;</div>
+                    </div>
+                    <div class="clock">
+                        <div class="hourHand"></div>
+                        <div class="minuteHand"></div>
+                        <div class="secondHand"></div>
+                        <div class="center"></div>
+                        <div class="time"></div>
+                        <ul>
+                            <li><span>1</span></li>
+                            <li><span>2</span></li>
+                            <li><span>3</span></li>
+                            <li><span>4</span></li>
+                            <li><span>5</span></li>
+                            <li><span>6</span></li>
+                            <li><span>7</span></li>
+                            <li><span>8</span></li>
+                            <li><span>9</span></li>
+                            <li><span>10</span></li>
+                            <li><span>11</span></li>
+                            <li><span>12</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

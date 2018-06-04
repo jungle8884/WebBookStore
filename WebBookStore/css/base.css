@@ -1,0 +1,374 @@
+﻿/*公共样式*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+ul, li {
+    list-style: none;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #333333;
+    overflow-y: visible;
+    /*overflow: Scroll;*/
+    /*overflow-y: hidden;*/
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+fieldset, img, abbr, acronym {
+    border: 0px;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+    a:hover {
+        color: #67D179;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+/*导航栏部分样式*/
+#nav-register, #nav-center {
+    display: none;
+}
+
+#nav-center {
+    clear: left;
+    float: right;
+    margin-top: -60px;
+}
+
+    #nav-center > li > a {
+        padding: 10px 20px;
+    }
+/*登陆窗体*/
+#loginbox {
+    height: 300px;
+    width: 360px;
+    display: none;
+}
+
+    #loginbox .inforerror1 {
+        color: red;
+    }
+
+    #loginbox #logintitle {
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+        border-bottom: solid 1px #CAD2E1;
+        margin-bottom: 17px;
+    }
+
+    #loginbox .regitem1 {
+        height: 25px;
+        line-height: 25px;
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    #loginbox #loginbtn {
+        background-color: #35b558;
+        color: #fff;
+        font-size: 20px;
+        height: 44px;
+        width: 100%;
+    }
+
+        #loginbox #loginbtn:hover {
+            background-color: #67D179;
+        }
+
+    #loginbox #loginreg {
+        height: 50px;
+        line-height: 50px;
+        border-bottom: solid 1px #CAD2E1;
+        margin-bottom: 17px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+/*my里面的公共样式*/
+#mymain {
+    width: 1000px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+#myleft {
+    width: 208px;
+    border: solid 1px #E7E7EB;
+    height: 600px;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+#myright {
+    float: left;
+    border: 1px solid #e7e7eb;
+    border-left-width: 0px;
+    width: 790px;
+    height: 600px;
+    margin-bottom: 18px;
+}
+
+.mynavitem {
+    margin-top: 13px;
+    border-bottom: solid 1px #E7E7EB;
+    cursor: pointer;
+    padding-bottom: 13px;
+}
+
+    .mynavitem li {
+        height: 34px;
+        line-height: 34px;
+    }
+
+.navitemtop {
+    padding: 0px 30px;
+}
+
+.nav_item {
+    padding-left: 58px;
+}
+
+.mytoptitle {
+    margin-left: 13px;
+    color: #8d8d8d;
+}
+
+.mynavitembg {
+    background-color: #F4F5F9;
+}
+
+.nav_item a {
+    display: block;
+}
+
+.mynavitemend {
+    border-bottom-width: 0px;
+}
+
+.ucenter-right-head {
+    border-bottom: 1px solid #eaeaea;
+    line-height: 300%;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+    .ucenter-right-head h3 {
+        color: #000;
+        font-size: 14px;
+        margin-left: 10px;
+        height: 50px;
+        line-height: 50px;
+    }
+/*分页控件样式*/
+#mypager {
+    height: 34px;
+    width: 320px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    /*上面为图书浏览（book.aspx）的样式*/
+    /*下面为购物车的样式*/
+    /*height: 34px;
+    width: 320px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;*/
+}
+
+    #mypager li {
+        height: 30px;
+        line-height: 30px;
+        margin: 0 10px 10px 0;
+        float: left;
+        padding: 0 10px;
+        background-color: #91cebe;
+    }
+
+        #mypager li a {
+            display: block;
+            color: #fff;
+            display: block;
+        }
+
+        #mypager li:hover {
+            background-color: #019875;
+        }
+
+        #mypager li a:hover {
+            text-decoration: none;
+            color: #fff;
+        }
+
+    #mypager .disable {
+        color: #fff;
+        background-color: #019875;
+    }
+/*右边栏*/
+#right-side {
+    /*border: dotted 1px red;*/
+    height: 500px;
+    width:auto;
+}
+
+/*书店图标*/
+.book-nav {
+    background-color: #FFFFFF;
+    height: 60px;
+    color: #000;
+    position: fixed;
+    left: 10%
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+#icon-book, .navbar-header, .navbar-brand {
+    width: 140px;
+    height: 60px;
+}
+
+#book-brand {
+    /*margin-left: 200px;
+    padding-right: 30px;*/
+    color: #000;
+}
+/*搜索框*/
+#search {
+    width: 300px;
+    height: 38px;
+    margin-left: 50px;
+    padding: 0;
+}
+
+#search_books {
+    width: 236px;
+    height: 34px;
+}
+
+#search_button {
+    width: 60px;
+    float: right;
+    height: 34px;
+}
+/*搜索出来的内容*/
+.search_content {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.search_content_li {
+    /*border: solid 2px blue;*/
+    width: 220px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #000;
+    cursor: default;
+}
+
+    .search_content_li:hover {
+        width: 220px;
+        cursor: pointer;
+        background-color: #BEDDF5;
+        font-size: 15px;
+    }
+/*图书，购物车，注册，登录*/
+@media (min-width:768px) {
+    .navbar-nav {
+        margin: 0 0 0 10px;
+    }
+
+        .navbar-nav > li {
+            margin: 0px 10px;
+            font-size: 18px;
+        }
+
+            .navbar-nav > li > a {
+                padding: 15px 20px;
+            }
+    /*图书，购物车*/
+    #book_cart {
+        float: left;
+        margin-left: 50px;
+    }
+    /*注册，登录*/
+    #nav-register {
+        float: right;
+    }
+
+        #nav-register > li {
+            padding-bottom: 8px;
+        }
+
+            #nav-register > li > a {
+                padding: 8px 20px;
+            }
+
+    .head-compose > a {
+        margin-top: 10px;
+        height: 34px;
+        line-height: 34px;
+        box-shadow: 0 0 1px 0 rgba(0,0,0,.5), inset 0 1px 1px 0 rgba(255,255,255,.2);
+        border-radius: 4px;
+    }
+}
+
+/*底部信息*/
+#footer {
+    /*border: solid 1px red;*/
+    position: absolute;
+    z-index:-1;
+    bottom: -130px;
+    width: 100%;
+    background: #f2f2f2;
+    clear: both;
+    color: #666;
+    padding: 30px 0;
+    padding-left: 30%;
+}

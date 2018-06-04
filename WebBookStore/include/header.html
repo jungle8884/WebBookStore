@@ -1,0 +1,58 @@
+﻿<div class="layout-head">
+    <div class="container">
+        <div class="navbar navbar-default navbar-fixed-top book-nav" role="navigation">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-responsive-collapse">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/aspx/index.aspx" class="navbar-brand " id="book-brand">
+                    <img src="../imgs/bookLogo.jpg" id="icon-book" class=""/>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-responsive-collapse">
+                <ul class="nav navbar-nav " id="book_cart">
+                    <li><a href="/aspx/books.aspx?cate='所有图书'&page=1" id="bookPage">所有图书</a></li>
+                    <li><a href="/aspx/ShoppingCart.aspx?page=1">购物车</a></li>
+                    <li><a href="/aspx/Board.aspx">留言板</a></li>
+                    <!--<li><a href="/aspx/bookOrder.aspx">订单</a></li>-->
+                </ul>
+                <form action="/aspx/books.aspx" method="post" class="navbar-form navbar-left" rol="search" id="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="search_books" id="search_books" placeholder="请输入关键词" />
+                        <div id="search_content" ></div>
+                    </div>
+                    <button type="submit" class="btn btn-default" id="search_button">搜索</button>
+                </form>
+                <ul class="nav navbar-nav" id="nav-register">
+                    <li class="head-compose"><a href="/aspx/reg.aspx" id="reg">新用户注册</a></li>
+                    <li class="head-compose"><a href="javascript:;" onclick="ShowLoginBox()">登录</a></li>
+                </ul>
+                <ul class="nav navbar-nav" id="nav-center">
+                    <li class="head-compose"><a href="../my/MyIndex.aspx" id="center">个人中心</a></li>
+                    <li class="head-compose"><a href="javascript:;" onclick="Exit()">退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="loginbox">
+    <div class="regitem1" id="logintitle">欢迎登录</div>
+    <div class="input-group regitem1">
+        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+        <input type="text" class="form-control" placeholder="请输入用户名" id="loginuser" />
+    </div>
+    <div class="inforerror1 regitem1"></div>
+    <div class="input-group regitem1">
+        <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+        <input type="password" class="form-control" placeholder="请输入密码" id="loginpwd" />
+    </div>
+    <div class="inforerror1 regitem1"></div>
+    <div class="regitem1">
+        <button data-toggle="modal" id="loginbtn" class="btn" type="button" onclick="Login()">登陆</button>
+    </div>
+    <div class="regitem1" id="loginreg">还没账号？<a href="Reg.aspx">马上注册</a></div>
+</div>

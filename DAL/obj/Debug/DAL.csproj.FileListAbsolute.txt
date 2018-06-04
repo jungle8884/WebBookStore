@@ -1,0 +1,7 @@
+D:\Coding\Project\WebBookStore\DAL\bin\Debug\DAL.dll
+D:\Coding\Project\WebBookStore\DAL\bin\Debug\DAL.pdb
+D:\Coding\Project\WebBookStore\References\Dal.dll
+D:\Coding\Project\WebBookStore\References\Dal.pdb
+D:\Coding\Project\WebBookStore\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Coding\Project\WebBookStore\DAL\obj\Debug\Dal.dll
+D:\Coding\Project\WebBookStore\DAL\obj\Debug\Dal.pdb

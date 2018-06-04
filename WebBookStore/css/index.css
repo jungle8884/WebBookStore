@@ -1,0 +1,450 @@
+﻿
+/*标签类别*/
+#home {
+    margin-top: 100px;
+    /*border: solid 1px red;*/
+}
+/*其中每一栏*/
+.column {
+    /*border: solid 1px blue;*/
+    width: 170px;
+}
+
+.post-tag {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 5px 28px 4px 14px;
+    margin: 8px 8px 8px 0;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #fcf8e3;
+    background-image: none;
+    color: #a07023;
+    border: 1px solid #fbcc66;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    position: relative;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.05);
+}
+/*书籍列表*/
+.block-header-book > h4 {
+    font-size: 22px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    min-height: 40px;
+    color: #333;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+#row-2 {
+    margin: 30px auto;
+}
+
+#title-h4, #head-more-page {
+    display: inline;
+    position: relative;
+}
+
+#title-h4 {
+    float: left;
+}
+
+#head-more-page {
+    clear: left;
+    float: right;
+    margin-top: -40px;
+}
+
+#display-dynamic {
+    font-size: 22px;
+    color: #333;
+    height: 100%;
+}
+
+#display-books {
+    margin-top: 60px;
+    border-top: 1px solid #a5a5a5;
+}
+
+.block-item {
+    width: 20.2%;
+    margin-top: 6px;
+    display: inline-block;
+    padding: 0 15px;
+    text-align: center;
+    vertical-align: top;
+    white-space: normal;
+    font-size: 14px;
+}
+
+.book-img {
+    padding: 0 0 2px 1px;
+    margin-bottom: 0;
+    position: relative;
+    text-align: left;
+}
+
+    .book-img > a {
+        position: relative;
+        display: inline-block;
+        width: 116px;
+        height: 170px;
+    }
+
+        .book-img > a > img {
+            width: 100%;
+            border: 0;
+        }
+
+            .book-img > a > img:hover {
+                -webkit-box-shadow: 3px 3px 14px rgba(0,0,0,.2);
+                -moz-box-shadow: 3px 3px 14px rgba(0,0,0,.2);
+                box-shadow: 3px 3px 14px rgba(0,0,0,.2);
+            }
+
+.name {
+    display: block;
+    margin-bottom: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.book-info {
+    padding: 0;
+    text-align: left;
+}
+
+.author {
+    line-height: 1.6;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #767676;
+}
+
+.intro {
+    display: none;
+    font-size: 14px;
+    color: #767676;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.author span {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.block-header-dynamic {
+    background: none;
+    border: none;
+    padding: 0;
+    height: auto;
+    margin: 30px 0 6px 0;
+    position: relative;
+}
+
+    .block-header-dynamic > h4 {
+        color: red;
+    }
+
+.block-event dl {
+    padding: 14px 0;
+    border-bottom: 1px dashed #a5a5a5;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+dl {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.list_aa li .img img {
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+/*时钟样式*/
+.clock {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    margin: 20px auto 0px auto;
+    position: relative;
+    border: 20px solid cornsilk;
+}
+
+.center {
+    background-color: #000;
+    position: absolute;
+    left: calc(50% - 10px);
+    top: calc(50% - 10px);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 20;
+}
+
+.hourHand {
+    width: 10px;
+    height: 75px;
+    background-color: #000;
+    transform-origin: bottom center;
+    border-radius: 4px;
+    position: absolute;
+    top: 55px;
+    left: 125px;
+    z-index: 10;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    transform: rotate(360deg);
+}
+
+.minuteHand {
+    width: 5px;
+    height: 120px;
+    background-color: #000;
+    transform-origin: bottom center;
+    border-radius: 4px;
+    position: absolute;
+    top: 15px;
+    left: 130px;
+    z-index: 9;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    transform: rotate(90deg);
+}
+
+.secondHand {
+    width: 2px;
+    height: 120px;
+    background-color: red;
+    transform-origin: bottom center;
+    border-radius: 4px;
+    position: absolute;
+    top: 15px;
+    left: 130px;
+    transition: all 0.06s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    z-index: 8;
+    transform: rotate(360deg);
+}
+
+.time {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    border: 1px solid #fff8dc;
+    background-color: #fff;
+    padding: 5px;
+    display: block;
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,.4);
+    border-radius: 5px;
+    min-width: 70px;
+    height: 30px;
+    font-size: 15px;
+}
+
+    .time small {
+        color: red;
+        transition: all 0.05s;
+        transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    }
+
+.clock ul {
+    list-style: none;
+    padding: 0;
+}
+
+    .clock ul li {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        font-size: 10px;
+        color: red;
+    }
+
+        .clock ul li:nth-child(1) {
+            right: 22%;
+            top: 6.5%;
+        }
+
+        .clock ul li:nth-child(2) {
+            right: 6%;
+            top: 25%;
+        }
+
+        .clock ul li:nth-child(3) {
+            right: 1%;
+            top: calc(50% - 10px);
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .clock ul li:nth-child(4) {
+            right: 6%;
+            top: 69%;
+        }
+
+        .clock ul li:nth-child(5) {
+            right: 22%;
+            top: 84%;
+        }
+
+        .clock ul li:nth-child(6) {
+            right: calc(50% - 10px);
+            top: calc(99% - 20px);
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .clock ul li:nth-child(7) {
+            left: 22%;
+            top: 84%;
+        }
+
+        .clock ul li:nth-child(8) {
+            left: 6%;
+            top: 69%;
+        }
+
+        .clock ul li:nth-child(9) {
+            left: 1%;
+            top: calc(50% - 10px);
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .clock ul li:nth-child(10) {
+            left: 6%;
+            top: 25%;
+        }
+
+        .clock ul li:nth-child(11) {
+            left: 22%;
+            top: 6.5%;
+        }
+
+        .clock ul li:nth-child(12) {
+            right: calc(50% - 10px);
+            top: 1%;
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+
+
+.editable-area {
+    position: absolute;
+}
+
+.ig > img {
+    width: 150px;
+    height: 150px;
+    /*border: dashed 1px #000;*/
+}
+
+.ig {
+    position: absolute;
+    left: 30%;
+    margin-left: -75px;
+    margin-top: 10px;
+}
+
+#bookShow {
+    border: solid 1px #a5a5a5;
+    height: 230px;
+}
+
+.btnShow {
+    width: 30px;
+    height: 60px;
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: 10%;
+    cursor: pointer;
+    display: none;
+}
+
+.btnL {
+    left: 0px;
+}
+
+.btnR {
+    right: 0px;
+}
+
+#tabs {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+.tab {
+    width: 30px;
+    height: 30px;
+    background-color: #0094ff;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    margin: 0px 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.bg {
+    background: red;
+}
+
+.bookShow-info {
+    position: absolute;
+    top: 10px;
+    margin-left: 140px;
+    height: 150px;
+    line-height: 25px;
+    width: 150px;
+    /*border: solid 1px red;*/
+    font-size: 8px;
+    color: #fbcc66;
+    /*当对象内文本溢出时显示省略标记*/
+    /*单行*/
+    /*
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: -webkit-box;
+    */
+    /*多行*/
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,8 @@
+D:\Coding\Project\WebBookStore\References\Model.dll
+D:\Coding\Project\WebBookStore\References\Model.pdb
+D:\Coding\Project\WebBookStore\BLL\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Coding\Project\WebBookStore\BLL\obj\Debug\Model.dll
+D:\Coding\Project\WebBookStore\BLL\obj\Debug\Model.pdb
+D:\Coding\Project\WebBookStore\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Coding\Project\WebBookStore\Model\obj\Debug\Model.dll
+D:\Coding\Project\WebBookStore\Model\obj\Debug\Model.pdb

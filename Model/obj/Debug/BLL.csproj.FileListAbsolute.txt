@@ -1,0 +1,7 @@
+D:\Coding\Project\WebBookStore\BLL\bin\Debug\BLL.dll
+D:\Coding\Project\WebBookStore\BLL\bin\Debug\BLL.pdb
+D:\Coding\Project\WebBookStore\References\BLL.dll
+D:\Coding\Project\WebBookStore\References\BLL.pdb
+D:\Coding\Project\WebBookStore\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Coding\Project\WebBookStore\BLL\obj\Debug\BLL.dll
+D:\Coding\Project\WebBookStore\BLL\obj\Debug\BLL.pdb

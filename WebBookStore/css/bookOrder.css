@@ -1,0 +1,254 @@
+﻿html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/*订单地址*/
+.GoodsAddress {
+    /*border:solid 1px red;*/
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 80%;
+}
+
+.addrHeading {
+    line-height: 25px;
+    color: #333333;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.addr {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 237px;
+    margin: 0 14px 14px 0;
+    color: #666;
+    cursor: pointer;
+}
+
+.inner {
+    background: url(../imgs/addrBG.png) no-repeat;
+    z-index: 2;
+    position: relative;
+    padding: 11px 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    height: 110px;
+    /*border: solid 1px red;*/
+}
+
+.addr .addr-hd {
+    width: 100%;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    line-height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.addr .addr-bd {
+    height: 55px;
+    overflow: hidden;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+    .addr .addr-bd span {
+        margin-right: 3px;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+.curMarker {
+    z-index: 3;
+    position: absolute;
+    background: url(../imgs/marker.png) no-repeat;
+    background-position: 0 -272px;
+    width: 28px;
+    height: 28px;
+    top: 77px;
+    right: 1px;
+    visibility: hidden;
+}
+
+/*订单列表*/
+.orderHeading {
+    margin-left: 150px;
+    width: 80%;
+    line-height: 25px;
+    color: #333333;
+    font-weight: 700;
+    font-size: 14px;
+}
+.cartMain_hd {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #3c3c3c;
+    margin-left: 150px;
+}
+
+    .cartMain_hd .cartTop {
+        height: 50px;
+    }
+
+        .cartMain_hd .cartTop .list_con {
+            width: 340px;
+            text-indent: 140px;
+        }
+
+        .cartMain_hd .cartTop .list_info {
+            padding: 0;
+            text-indent: 15px;
+        }
+
+.order_lists .list_price {
+    width: 130px;
+}
+
+    .order_lists .list_price .price {
+        margin-top: 20px;
+        line-height: 18px;
+        font-family: Verdana,Tahoma,arial;
+        color: #3c3c3c;
+        font-weight: bold;
+    }
+.cartBox {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.cartBox .order_content {
+    border: 1px solid #ccc;
+    /*border: solid 1px red;*/
+    width: 85%;
+    margin-left: 150px;
+}
+
+    .cartBox .order_content a {
+        display: block;
+    }
+
+.order_lists {
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+    .order_lists:last-child {
+        border-bottom: none;
+    }
+
+    .order_lists li {
+        float: left;
+        height: 100%;
+        /*border: solid 1px red;*/
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .order_lists .list_con {
+        width: 342px;
+    }
+
+        .order_lists .list_con .list_img {
+            width: 90px;
+            height: 90px;
+            margin-top: 20px;
+            float: left;
+            /*border: solid 1px red;*/
+            margin-left: 10px;
+        }
+
+            .order_lists .list_con .list_img img {
+                width: 100%;
+                vertical-align: top;
+                height: 100px;
+            }
+
+        .order_lists .list_con .list_text {
+            margin: 20px 0 0 10px;
+            line-height: 18px;
+            width: 200px;
+            float: left;
+        }
+
+            .order_lists .list_con .list_text a {
+                color: #3c3c3c;
+            }
+
+                .order_lists .list_con .list_text a:hover {
+                    color: #ff873e;
+                    text-decoration: underline;
+                }
+
+    .order_lists .list_info {
+        width: 252px;
+        box-sizing: border-box;
+        padding: 20px 0;
+    }
+
+        .order_lists .list_info p {
+            color: #9c9c9c;
+            line-height: 18px;
+            margin-left: 15px;
+        }
+
+    .order_lists .list_price {
+        width: 130px;
+    }
+
+        .order_lists .list_price .price {
+            margin-top: 20px;
+            line-height: 18px;
+            font-family: Verdana,Tahoma,arial;
+            color: #3c3c3c;
+            font-weight: bold;
+        }
+
+    .order_lists .list_amount {
+        width: 120px;
+    }
+
+        .order_lists .list_amount .amount_box {
+            margin-top: 20px;
+            margin-left:-25px;
+            width: 77px;
+            height: 25px;
+            position: relative;
+        }
+
+        .order_lists .list_amount .amount_box input {
+            width: 39px;
+            height: 23px;
+            line-height: 15px;
+            border: 1px solid #aaa;
+            color: #343434;
+            text-align: center;
+            padding: 4px 0;
+            background-color: #fff;
+            z-index: 2;
+            position: absolute;
+            left: 18px;
+            float: left;
+        }
+    .order_lists .list_sum {
+        width: 140px;
+    }
+
+.order_lists .list_sum .sum_price {
+    line-height: 18px;
+    margin-top: 20px;
+    font-family: Verdana,Tahoma,arial;
+    color: #ff0000;
+    font-weight: bold;
+}
+.order_lists .list_op {
+    width: 50px;
+}
+
+.order_lists .list_op .del {
+    margin-top: 20px;
+    line-height: 18px;
+}

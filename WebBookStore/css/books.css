@@ -1,0 +1,27 @@
+﻿
+.block-events dl {
+    padding: 14px 0;
+    border-bottom: 1px dashed #a5a5a5;
+    line-height: 1.6;
+}
+dl {
+    display: block;
+    -webkit-margin-start: 0px;
+}
+.block-events dt {
+    font-size: 16px;
+    line-height: 1.6;
+}
+dd {
+    font-size: 15px;
+    display: block;
+    -webkit-margin-start: 40px;
+}
+.block-events dd {
+    line-height: 1.6;
+    color: #767676;
+}
+p {
+    display: block;
+    -webkit-margin-start: 0px;
+}

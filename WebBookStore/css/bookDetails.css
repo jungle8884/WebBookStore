@@ -1,0 +1,316 @@
+﻿body {
+    background: #fff;
+    font: 400 14px/1.8 Helvetica,Arial,"PingFang SC","Microsoft Yahei","微软雅黑","Hiragino Sans GB","Microsoft Sans Serif","WenQuanYi Micro Hei","sans-serif";
+    color: #111;
+}
+.test {
+    border:solid 1px red;
+}
+/*图书详情*/
+#book_details {
+    /*border: solid 1px red;*/
+    position:absolute;
+    top:150px;
+    left:10%;
+}
+.book-img {
+    padding: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+.book-img > img {
+    width: 231px;
+    height: 334px;
+}
+.book-info{
+    min-height:150px;
+}
+    .book-info .book-title {
+        margin: 10px 0;
+    }
+.book-author {
+    color: #9c9c9c;
+}
+.book-intro {
+    margin: 12px 0;
+    position: relative;
+    padding: 0;
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.readmore[data-readmore] {
+    transition: height 75ms;
+    overflow: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: PingFang SC,Verdana,Helvetica Neue,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;
+    line-height: 1.4;
+}
+h2 {
+    font-size: 30px;
+}
+/*价格标签*/
+.price {
+    color: #f90;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 2em;
+}
+.block-header > h3 {
+    font-size: 20px;
+    min-height: 36px;
+}
+.block-header {
+    background: none;
+    border: none;
+    padding: 0;
+    height: auto;
+    margin: 30px 0 6px 0;
+    border-bottom: 1px solid #a5a5a5;
+    position: relative;
+}
+/*出版信息*/
+#publisher {
+    position:fixed;
+    top:400px;
+    right:2%;
+}
+.publish-info {
+    color: #111;
+}
+    .publish-info > li {
+        padding-left: 70px;
+        margin-bottom: 10px;
+    }
+    .publish-info strong {
+        display: inline-block;
+        width: 70px;
+        padding-right: 12px;
+        margin-left: -70px;
+        text-align: left;
+        font-weight: normal;
+        color: #9c9c9c;
+    }
+.block-header {
+    background: none;
+    border: none;
+    padding: 0;
+    height: auto;
+    margin: 30px 0 6px 0;
+    border-bottom: 1px solid #a5a5a5;
+    position: relative;
+}
+    .block-header h3, .block-header h4 {
+        font-size: 22px;
+        line-height: 1.4;
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+        min-height: 40px;
+        color: #333;
+    }
+/*书评*/
+#comment-list {
+    /*border:solid 1px red;*/
+}
+.comment-list > ul > li {
+    /*border-top: 1px dashed #a5a5a5;*/
+    /*margin-top: 0px;*/
+    border-bottom: 1px dashed #a5a5a5;
+    margin-bottom: 30px;
+}
+.comment-reply-ul {
+    /*border: solid 1px red;*/
+}
+.comment-txt {
+    line-height: 1.6;
+    margin-bottom: 6px;
+    margin-left: 80px;
+    margin-top: -40px;
+    /*border: solid 1px red;*/
+}
+.comment-info {
+    margin-left: 80px;
+    width:400px;
+    /*border: solid 1px red;*/
+}
+/*评论头像*/
+.avatar-img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top : 10px;
+}
+.comment-list-reply{
+    /*border:solid 1px red;*/
+}
+.comment-reply-txt {
+    /*border: solid 1px red;*/
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+.comment-reply-info {
+    /*border: solid 1px red;*/
+    width: 400px;
+    margin-left: 0px;
+    margin-top: -20px;
+}
+
+/*回复评论*/
+.action-bar-reply {
+    /*border: solid 1px red;*/
+    width: 100px;
+    margin-left: 85%;
+    margin-top: -24px;
+}
+.comment-reply-btn {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 80px;
+    /*border: solid 1px red;*/
+    height: auto;
+    display:none;
+}
+.addClass-CommentReply{
+    display:block;
+}
+.reply-txtarea-btn-cancel {
+    /*border: solid 1px red;*/
+    height: 30px;
+    margin-left: 94%;
+    margin-top: -55px;
+}
+.reply-txtarea-btn-submit {
+    /*border: solid 1px red;*/
+    height: 30px;
+    margin-left: 86%;
+    margin-top: 10px;
+}
+/*评论*/
+.action-bar {
+    /*border: solid 1px red;*/
+    width: 100px;
+    margin-left: 85%;
+    margin-top: -24px;
+}
+.comment-btn {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 80px;
+    /*border: solid 1px red;*/
+    height: auto;
+    display: none;
+}
+.txtarea-btn-cancel {
+    /*border: solid 1px red;*/
+    height: 30px;
+    margin-left: 94%;
+    margin-top: -55px;
+}
+
+.txtarea-btn-submit {
+    /*border: solid 1px red;*/
+    height: 30px;
+    margin-left: 86%;
+    margin-top: 10px;
+}
+
+/*加入购物车和结算*/
+.dbtn {
+    width: 150px;
+    height: 36px;
+    border-radius: 12px;
+    margin: -30px auto;
+    background-color: #ff6a00;
+}
+    .dbtn a {
+        width: 150px;
+        height: 36px;
+        display: block;
+        text-align: center;
+        line-height: 36px;
+        color: #fff;
+        font-size: 20px;
+        margin: 0px auto;
+        border-radius: 12px;
+        text-decoration: none;
+    }
+    /*加入购物车*/
+    .dbnJoin {
+        margin-right:180px;
+        
+    }
+    /*进入购物车结算*/
+    .dbnToCheck {
+        margin-right: 10px;
+        margin-top: -36px;
+    }
+/*购物车*/
+#dcar {
+    top: 150px;
+    position: fixed;
+    right: 0px;
+    width: 72px;
+    height: 63px;
+    z-index: 5;
+    background-image: url("../imgs/car.jpg");
+}
+
+#dprocount {
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.bg {
+    background-color: #808080;
+}
+
+/*用户评价*/
+.user {
+    color: #428bca;
+    text-shadow: 3px 3px 14px rgba(0,0,0,.2);
+}
+
+/*发表评论的插件*/
+#comment {
+    border: solid 1px #F3F3F3;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-color: #F3F3F3;
+    clear: both;
+    width: 70%;
+    /*border: solid 1px red;*/
+}
+#txtBodyComment {
+    width:500px;
+    height:100px;
+    /*border:solid 1px red;*/
+}
+#re1 {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.reitem {
+    margin-bottom: 10px;
+}
+
+#btnsubmit {
+    background-color: #35B558;
+    width: 120px;
+    color: #fff;
+    font-size: 16px;
+    height: 34px;
+}
